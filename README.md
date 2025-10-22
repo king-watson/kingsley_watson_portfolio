@@ -2,6 +2,8 @@
 
 Welcome! This portfolio is a showcase of my creative journey through graphic design, web, and media. It represents my ongoing growth as a designer who values creativity, clarity, and user-focused visual experiences.
 
+![my portfoilio](images/readme-image.jpg)
+
 ## Table of Contents<br/>
 [About](#about)<br/>
 [Skills](#skills)<br/>
@@ -20,10 +22,12 @@ Here’s a quick overview of the skills highlighted in this portfolio:
 
 ### Languages: <a id="languages"></a>
 JavaScript, HTML5, CSS3
+### Design Areas:
+Brand Identity • Digital Media • Motion Graphics • Web & UI Design
 ### Frameworks and Libraries: 
 Vue.js, GreenSock
 ### Tools: 
-Git, Figma
+Git, Figma, Cinema 4D and Adobe Creative Cloud
 ### Technologies: 
 RESTful APIs, Responsive Design, AJAX 
 
