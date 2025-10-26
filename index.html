@@ -18,31 +18,39 @@
 
     <!-- HEADER -->
     <header class="head">
-        <div class="logo box-model">Nav</div>
+        <div class="sm-one-item md-half-right box-model">Nav</div>
+        <div class="sm-two-third md- box-model">Logo</div>
     </header>
 
     <main id="content" class="main">
 
-        <!-- HERO SECTION -->
-        <section class="hero">
-            <div class="full">
-                <div class="box-model">Hero Section (Name + Role)</div>
+      <section class="hero">
+            <div class="hero-img">
+                <picture>
+                    <source media="(min-width:800px)" srcset="https://placehold.co/2200x600">
+                    <source media="(min-width:465px)" srcset="https://placehold.co/600x400.png">
+                    <img src="https://placehold.co/600x400.png" alt="FPO">
+                </picture> 
             </div>
         </section>
 
         <!-- ABOUT SECTION -->
         <section class="about">
             <div class="full">
-                <div class="box-model">About Me Section</div>
+                <div class="box-model">About Me</div>
             </div>
         </section>
 
-        <!-- FEATURED VIDEO -->
-        <section class="featured-video">
+        <!-- VIDEO -->
+         <section class="featured-video">
             <div class="full">
-                <div class="box-model">Featured Video / Hero Image</div>
+        <video class="featured-video-player" controls>
+            <source src="video/intro-mockup.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
             </div>
         </section>
+
 
         <!-- FEATURED PROJECTS -->
         <section class="projects">
@@ -58,12 +66,12 @@
 
         <!-- SKILLS SECTION -->
         <section class="skills">
-            <div class="one-item sm-three-items md-three-items lg-three-items">
+            <div class="three-items sm-three-items md-three-items lg-three-items">
                 <div class="box-model">Skill 1</div>
                 <div class="box-model">Skill 2</div>
                 <div class="box-model">Skill 3</div>
             </div>
-            <div class="one-item sm-three-items md-three-items lg-three-items">
+            <div class="three-items sm-three-items md-three-items lg-three-items">
                 <div class="box-model">Skill 4</div>
                 <div class="box-model">Skill 5</div>
                 <div class="box-model">Skill 6</div>
@@ -72,7 +80,7 @@
 
         <!-- CONTACT SECTION -->
         <section class="contact">
-            <div class="one-item sm-two-items md-two-items lg-two-items">
+            <div class="two-items sm-two-items md-two-items lg-two-items">
                 <div class="box-model">Profile Image</div>
                 <div class="box-model">Arrow Button / Link</div>
             </div>
@@ -81,11 +89,13 @@
 
     <!-- FOOTER -->
     <footer class="foot">
-        <div class="one-item sm-half-left md-half-left lg-half-left">
+        <div class="half-left md-three-items">
             <div class="box-model">Logo</div>
             <div class="box-model">Nav Links</div>
             <div class="box-model">Social Icons</div>
         </div>
     </footer>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
