@@ -87,9 +87,10 @@ input, textarea {
  /*------------ Build a Box ------------*/
 
  .box-model {
-   background: rgb(211, 211, 211);
+   background: black;
    padding: 1em;
    margin: 1em;
+   color: yellow;
  }
 
  /*------------ End Build a Box ------------*/
@@ -150,7 +151,8 @@ ___________________________________________ */
    02. Hero Image
    _____________________________________ */
 
-   .hero {
+
+ .hero {
       margin: 0 0;
    }
 
@@ -169,31 +171,9 @@ ___________________________________________ */
       grid-row: 1;
    }
 
-   .hero-img h2 {
-      background: #fff;
-      padding: 1em 1.75em;
-      font-size: 1em;
-      font-weight: 300;
-   }
+   
 
-   .hero-img h2 span {
-      font-size: .65em;
-      color: #9a2018;
-   }
-
-   .hero-img h2.left {
-      align-self: flex-end;
-      justify-self: start;
-      margin-left: 1em;
-   }
-
-   .hero-img h2.right {
-      align-self: flex-end;
-      justify-self: end;
-      margin-right: 1em;
-   }
-
-   @media screen and (min-width: 48em) {
+   @media screen and (max-width: 599px) {
 
       .hero-img {
          display: grid;
@@ -215,6 +195,111 @@ ___________________________________________ */
 
    }
 
+   @media screen and (min-width: 600px) {
+
+      .hero-img {
+         display: grid;
+         grid-column: span 6;
+         margin-bottom: 1rem;
+         max-width: 100%;
+      }
+
+      .hero-img h2.left {
+         align-self: flex-end;
+         justify-self: start;
+         margin-left: 10vw;
+      }
+   
+      .hero-img h2.right {
+         align-self: flex-end;
+         justify-self: end;
+         margin-right: 2em;
+      }
+
+       .featured-video-player {
+               
+      height: 400px;
+      width: 100%;
+      }
+   
+      
+   .featured-video {
+    display: flex;               
+    justify-content: center;    
+    align-items: center; 
+    max-height: 400px;  
+    min-width: 100%;         
+}
+
+   }
+
+   @media screen and (min-width: 900px) {
+
+      .hero-img {
+         display: grid;
+         grid-column: span 6;
+         margin-bottom: 1rem;
+         max-width: 100%;
+      }
+
+      .hero-img h2.left {
+         align-self: flex-end;
+         justify-self: start;
+         margin-left: 10vw;
+      }
+   
+      .hero-img h2.right {
+         align-self: flex-end;
+         justify-self: end;
+         margin-right: 2em;
+      }
+
+   }
+
+   .about .box-model {
+      padding-top: 100px;
+      padding-bottom: 100px;
+      text-align: center;
+   }
+
+   
+   .featured-video-player {
+      width: 80%px;              
+      height: 240px;
+      }
+   
+      
+   .featured-video {
+    display: flex;               
+    justify-content: center;    
+    align-items: center; 
+    max-height: 400px;           
+}
+
+.projects {
+   min-height: 1000px;
+   text-align: center;
+   justify-content: center; 
+}
+
+.skills .box-model {
+   border-radius: 100px;
+   text-align: center;
+}
+
+.contact .box-model {
+   min-height: 250px;
+   text-align: center;
+}
+
+.foot {
+   display: flex;
+   text-align: center;
+}
+
+.head .box-model {
+   text-align: center;
+}
 
 
    /*-------------- End Hero Image --------------*/
